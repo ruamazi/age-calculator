@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Lateef&display=swap");
+
+/*arabic font   font-family: "Markazi Text", serif;*/
+@import url("https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;500;700&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  font-family: inherit;
+}
+body {
+  font-family: system-ui, "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: rgb(37, 37, 37) !important;
+  color: white;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 610px) {
+}
+
+@media only screen and (min-width: 992px) {
+}
+/* width */
+main::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+main::-webkit-scrollbar-track {
+  background: var(--color-mainbg);
+}
+
+/* Handle */
+main::-webkit-scrollbar-thumb {
+  background: var(--color-headerbg);
+  border-radius: 2px;
+}
+
+/* Handle on hover */
+main::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+
+.unselectable {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
